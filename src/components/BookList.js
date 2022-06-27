@@ -14,7 +14,7 @@ const BookList = () => {
     >
       <ul>
         {books.map((book) => {
-          return <li style={{ background: theme.ui }}>{book.title}</li>;
+          return <li key={book.id} style={{ background: theme.ui }}>{book.title}</li>;
         })}
       </ul>
     </div>
