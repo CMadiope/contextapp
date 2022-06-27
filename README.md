@@ -1,4 +1,1 @@
-This is a to do list created using react context and hooks
-
-check it out: 
-http://contexapp.web/
+this is just a practice using react hooks before i make a booklist app
